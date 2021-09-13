@@ -1,11 +1,14 @@
 {
   "name": "react-extended-joyride",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "Create guided tours for your apps",
   "author": "Gil Barbara <gilbarbara@gmail.com>",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gilbarbara/react-joyride.git"
+    "url": "git+https://github.com/Aliath/react-joyride"
   },
   "bugs": {
     "url": "https://github.com/gilbarbara/react-joyride/issues"
@@ -131,11 +134,11 @@
   "size-limit": [
     {
       "path": "./es/index.js",
-      "limit": "32 kB"
+      "limit": "33 kB"
     },
     {
       "path": "./lib/index.js",
-      "limit": "32 kB"
+      "limit": "33 kB"
     }
   ],
   "husky": {
